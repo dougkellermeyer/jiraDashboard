@@ -1,0 +1,17 @@
+{
+  "name": "jira-dashboard",
+  "version": "1.0.0",
+  "description": "A simple dashboard for viewing Jira issues",
+  "main": "server.js",
+  "repository": "https://github.com/dougkellermeyer/jiraDashboard.git",
+  "author": "Doug Kellermeyer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "develop": "nodemon server.js"
+  }
+}
